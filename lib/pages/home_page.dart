@@ -9,7 +9,7 @@ import 'autocomplete_page.dart';
 class HomePage extends StatelessWidget {
   final List<Map<String, dynamic>> menuItems = [
     {'title': 'Catatan Pribadi', 'page': NotesPage()},
-    // {'title': 'Ambil Foto', 'page': CameraPage()},
+    {'title': 'Ambil Foto', 'page': CameraPage()},
     // {'title': 'Lihat Lokasi', 'page': MapsPage()},
     // {'title': 'Preferences', 'page': PreferencesPage()},
     // {'title': 'Grafik Data', 'page': GrafikPage()},
