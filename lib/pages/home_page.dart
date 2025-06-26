@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
     {'title': 'Autocomplete', 'page': AutocompletePage()},
     {'title': 'Thread & AsyncTask', 'page': ThreadPage()},
     {'title': 'SMS Autofill', 'page': SMSAutofillPage()},
+
   ];
 
   @override
