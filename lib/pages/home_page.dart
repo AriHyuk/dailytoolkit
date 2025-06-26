@@ -11,8 +11,8 @@ class HomePage extends StatelessWidget {
     {'title': 'Catatan Pribadi', 'page': NotesPage()},
     {'title': 'Ambil Foto', 'page': CameraPage()},
     // {'title': 'Lihat Lokasi', 'page': MapsPage()},
-    // {'title': 'Preferences', 'page': PreferencesPage()},
-    // {'title': 'Grafik Data', 'page': GrafikPage()},
+    {'title': 'Preferences', 'page': PreferencesPage()},
+    {'title': 'Grafik Data', 'page': GrafikPage()},
     // {'title': 'Autocomplete', 'page': AutocompletePage()},
   ];
 
