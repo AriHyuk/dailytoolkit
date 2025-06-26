@@ -6,6 +6,9 @@ import 'preferences_page.dart';
 import 'grafik_page.dart';
 import 'autocomplete_page.dart';
 import 'thread_page.dart';
+import 'sms_autofill_page.dart';
+
+
 
 
 
@@ -18,6 +21,7 @@ class HomePage extends StatelessWidget {
     {'title': 'Grafik Data', 'page': GrafikPage()},
     {'title': 'Autocomplete', 'page': AutocompletePage()},
     {'title': 'Thread & AsyncTask', 'page': ThreadPage()},
+    {'title': 'SMS Autofill', 'page': SMSAutofillPage()},
   ];
 
   @override
