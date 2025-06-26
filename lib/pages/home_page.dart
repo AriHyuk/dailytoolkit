@@ -5,6 +5,9 @@ import 'maps_page.dart';
 import 'preferences_page.dart';
 import 'grafik_page.dart';
 import 'autocomplete_page.dart';
+import 'thread_page.dart';
+
+
 
 class HomePage extends StatelessWidget {
   final List<Map<String, dynamic>> menuItems = [
@@ -14,6 +17,7 @@ class HomePage extends StatelessWidget {
     {'title': 'Preferences', 'page': PreferencesPage()},
     {'title': 'Grafik Data', 'page': GrafikPage()},
     {'title': 'Autocomplete', 'page': AutocompletePage()},
+    {'title': 'Thread & AsyncTask', 'page': ThreadPage()},
   ];
 
   @override
