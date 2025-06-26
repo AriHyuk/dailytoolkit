@@ -16,8 +16,12 @@ class HomePage extends StatelessWidget {
     // {'title': 'Lihat Lokasi', 'page': MapsPage()},
     {'title': 'Preferences', 'page': PreferencesPage()},
     {'title': 'Grafik Data', 'page': GrafikPage()},
+<<<<<<< develop
     {'title': 'Autocomplete', 'page': AutocompletePage()},
     {'title': 'Thread & AsyncTask', 'page': ThreadPage()},
+=======
+    // {'title': 'Autocomplete', 'page': AutocompletePage()},
+>>>>>>> main
   ];
 
   @override
